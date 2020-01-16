@@ -1,6 +1,6 @@
 # TODO: Write a script to that prints out the multiples of 3 between 0 nad N, where N is a user input
 
-N=int(input("Enter an integer"))
+N=int(input("Enter an integer: "))
 
 print("\nUsing the while loop")
 counter=0;

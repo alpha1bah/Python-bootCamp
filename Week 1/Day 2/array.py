@@ -14,7 +14,7 @@ for index in range (len(my_first_list)):
 print(my_first_list)
 
 # error
-#print(my_first_list[4])
+#print(my_first_list[4]) # out of range. The maximum index is 3.     the index are: 0, 1, 2, 3.
 
 my_first_list.append(10)
 print("After append:", my_first_list)

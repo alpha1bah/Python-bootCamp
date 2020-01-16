@@ -8,8 +8,8 @@ def search(n,list):
        if list[i]==n:
            found=True
            index=i
-        i+=1
-    return index
+       i+=1
+   return index
 
 list=[10,8,7,19,42,2]
 ans=search(2,list)

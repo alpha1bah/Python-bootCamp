@@ -5,8 +5,8 @@ def find_evens(A,B):
     for num in range(A, B+1):
         if num % 2 == 0:
             evens.append(num)
-    return find_evens
-print(find_evens(2,20))
+    return evens
+print("The even list between 2 and 20 are:", find_evens(2,20))
 
 
 def even_mults(A,B):
@@ -17,5 +17,6 @@ def even_mults(A,B):
             
     return mults
 
-print(even_mults)
+print("The even and multiple numbers between 2 and 20 are: ",even_mults(2,20))
+
 

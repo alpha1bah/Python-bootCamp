@@ -9,11 +9,12 @@ guesses=[]
 guesses_taken=0
 #num_guesses=5
 user_won=False
+total_guesses = 5
 
 
-while num_guesses !=0 and user_won == False:
-    user_guess = int(input("Enter your guess: "))
-    dif=user_guess-winning_number
+#while num_guesses !=0 and user_won == False:
+    #user_guess = int(input("Enter your guess: "))
+    #dif=user_guess-winning_number
 
 
 while guesses_taken < total_guesses and user_won !=True:
